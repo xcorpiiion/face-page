@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+}
+
+a{
+  text-decoration: rgba(115, 180, 255, 0);
+}
+
+a:hover{
+  text-decoration: rgb(115, 180, 255);
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.principal {
+  position: absolute;
+  background-color:	#3b5998;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.loginRecente {
+  position: absolute;
+  background-color: #f7f7f7;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  top: 30px;
+}
+
+.cadastro {
+  position: absolute;
+  background-color: #f7f7f7;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  left: 60%;
+  top: 30px;
+}
+
+.teste04 {
+  position: absolute;
+  background-color: rgba(240, 249, 255, 0.835);
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#searchFormEmail {
+  width: 100%;
+  max-width: 150px;
+  margin-left: 5%;
+  padding-left: 600px;
+  padding-bottom: 35px;
+}
+
+#nome {
+  position: absolute;
+  width: 100%;
+  max-width: 150px;
+  right: 70%;
+  top: 12%;
+}
+
+#sobrenome {
+  position: absolute;
+  width: 100%;
+  max-width: 150px;
+  left: 40%;
+  top: 12%;
+}
+
+#cellOrEmail {
+  position: absolute;
+  width: 100%;
+  max-width: 150px;
+  left: 10%;
+  top: 17%;
+}
+
+#newPassword {
+  position: absolute;
+  width: 100%;
+  max-width: 150px;
+  left: 10%;
+  top: 22%;
+}
+
+#dataNascimento{
+  position: absolute;
+  width: 100%;
+  max-width: 150px;
+  left: 8%;
+  top: 25%;
+}
+
+#searchFormSenha {
+  width: 100%;
+  max-width: 150px;
+  margin-left: 3%;
+  padding-left: 5px;
+  padding-bottom: 15px;
+}
+
+#serachEmail {
+  margin: 5px;
+  margin-left: 20%;
+  padding-left: 600px;
+}
+
+#search-input {
+  width: 100%;
+  transform: scale(1.2);
+  padding-bottom: 25px;
+}
+
+#idFace {
+  font-size: 18sp;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-left: 18%;
+}
+
+#btnEntrar {
+  position: relative;
+  background-color: rgba(6, 32, 182, 0.938);
+  border: none;
+  color: white;
+  height: 25px;;
+  left: 30px;
+}
+
+#btnEntrar:hover {
+  background-color: blue;
+}
+
+#emailOrTelefone {
+  position: relative;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  top: 5px;
+}
+
+#txtCriarConta {
+  position: relative;
+  bottom: 45%;
+  left: 8%;
+  color: rgb(46, 46, 46);
+}
+
+#txtCriarContaRapido {
+  position: relative;
+  bottom: 41%;
+  right: 31%;
+  color: rgb(46, 46, 46);
+}
+
+#inputCadastro {
+  padding-right: 126%;
+  border-radius: 4px;
+  height: 23px;
+}
+
+#inputCadastroNome {
+  border-radius: 4px;
+  height: 23px;
+}
+
+#inputCadastroSobrenome {
+  border-radius: 4px;
+  height: 23px;
+}
+
+#inputCadastroDataNascimento {
+  border-radius: 4px;
+  height: 23px;
+}
+
+#esqueceuSenha{
+  position: relative;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(115, 180, 255);
+}
+
+#nascimento{
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  top: 9px;
+}
